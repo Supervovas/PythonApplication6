@@ -35,7 +35,7 @@ def kustutamine(i,p):
 
 def suurim_palk(i,p):
     suurim=max(p)
-    p.count(abi_list)
+    n=p.count(p[n])
     
 
 def sorteerimine(i,p):
@@ -70,18 +70,18 @@ def vordsed_palgad(i,p):
     for n in range (0,N):
          for m in range(n,N):
              if p[n]==p[m]:
+                 dublikatid=[x for x in palgad if palgad.count(x)>1]
+                 print(dublikatid)
+
+
+
 
          
 
 
             
                 
-                    abi=p[n]
-                    p[n]=p[m]
-                    p[m]=abi
-                    abi=i[n]
-                    i[n]=i[m]
-                    i[m]=abi
+                  
     
 
 
