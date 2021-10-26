@@ -71,7 +71,7 @@ def vordsed_palgad(i,p):
          for m in range(n,N):
              if p[n]==p[m]:
                  dublikatid=[x for x in palgad if palgad.count(x)>1]
-                 print(dublikatid)
+                 print(list(set(dublikatid)))
 
 
 
